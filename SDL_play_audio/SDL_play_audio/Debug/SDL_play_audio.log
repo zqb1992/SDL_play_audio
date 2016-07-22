@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/7/22 星期五 17:36:18。
+     1>项目“E:\code_decodec\SDL_play_audio\SDL_play_audio\SDL_play_audio.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SDL_play_audio.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SDL_play_audio.cpp
+         SDL_play_audio.cpp
+     1>e:\code_decodec\sdl_play_audio\sdl_play_audio\sdl_play_audio.cpp(30): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\code_decodec\sdl_play_audio\sdl_play_audio\sdl_play_audio.cpp(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code_decodec\SDL_play_audio\Debug\SDL_play_audio.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code_decodec\SDL_play_audio\Debug\SDL_play_audio.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code_decodec\SDL_play_audio\Debug\SDL_play_audio.lib" /MACHINE:X86 Debug\SDL_play_audio.obj
+         Debug\stdafx.obj
+         SDL_play_audio.vcxproj -> E:\code_decodec\SDL_play_audio\Debug\SDL_play_audio.exe
+     1>已完成生成项目“E:\code_decodec\SDL_play_audio\SDL_play_audio\SDL_play_audio.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.55
